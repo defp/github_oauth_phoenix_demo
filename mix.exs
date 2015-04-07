@@ -15,7 +15,7 @@ defmodule GithubOauthDemo.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [mod: {GithubOauthDemo, []},
-     applications: [:phoenix, :cowboy, :logger]]
+     applications: [:phoenix, :cowboy, :logger, :httpoison]]
   end
 
   # Specifies your project dependencies
@@ -25,6 +25,7 @@ defmodule GithubOauthDemo.Mixfile do
     [{:phoenix, "~> 0.10.0"},
      {:phoenix_ecto, "~> 0.1"},
      {:postgrex, ">= 0.0.0"},
-     {:cowboy, "~> 1.0"},]
+     {:cowboy, "~> 1.0"},
+     {:github_oauth, github: "lidashuang/github_oauth"}]
   end
 end

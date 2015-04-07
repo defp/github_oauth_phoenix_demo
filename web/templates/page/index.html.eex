@@ -1,0 +1,14 @@
+<div class="jumbotron">
+  <h2>Welcome to Phoenix!</h2>
+  <p>id: <%= @user_id %></p>
+  <p>username: <%= @username %> </p>
+</div>
+
+<div class="row marketing">
+  <div class="col-lg-6">
+  </div>
+
+  <div class="col-lg-6">
+  </div>
+</div>
+
